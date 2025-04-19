@@ -25,4 +25,5 @@ else:
 run(["git", "branch", "-M", "main"])
 run(["git", "remote", "remove", "origin"])  # rimuove se già presente
 run(["git", "remote", "add", "origin", "https://github.com/Start13/OmniEA.git"])
-run(["git", "push", "-u", "origin", "main"])
+run(["git", "push", "-u", "origin", "main", "--force"])
+
