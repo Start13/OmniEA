@@ -24,5 +24,5 @@ else:
 # Resto dei comandi
 run(["git", "branch", "-M", "main"])
 run(["git", "remote", "remove", "origin"])  # rimuove se già presente
-run(["git", "remote", "add", "origin", "https://github.com/TUO_USERNAME/TUO_REPO.git"])
+run(["git", "remote", "add", "origin", "https://github.com/Start13/OmniEA.git"])
 run(["git", "push", "-u", "origin", "main"])
